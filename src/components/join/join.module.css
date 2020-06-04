@@ -1,0 +1,39 @@
+body{
+    background-color: #192b41;
+}
+.outer{ 
+    display: flex;
+    justify-content: center;
+    /* margin-top: 180px; */
+    height: 90vh;
+    align-items: center;
+    
+}
+.inner{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(185, 109, 22);
+}
+.inner input{
+    width: 200px;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: solid 1px;
+}
+
+.inner button{
+    padding: 8px 80px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    background-color: rgb(13, 13, 44);
+}
+.inner button:hover{
+    background-color: rgb(18, 18, 88);
+}

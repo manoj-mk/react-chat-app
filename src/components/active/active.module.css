@@ -1,0 +1,17 @@
+.active{
+    width: 120px;
+    height: 370px;
+    background-color: rgb(69, 143, 161);
+    padding: 0;
+}
+.active p{
+    padding: 10px;
+    margin: 0;
+    background-color: white;
+}
+.list{
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+    border-bottom: solid 1px;
+}

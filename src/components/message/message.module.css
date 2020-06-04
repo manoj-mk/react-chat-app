@@ -1,0 +1,32 @@
+.messenger1{
+    /* position: absolute; */
+    /* color: wheat; */
+    /* border-radius: 5px; */
+    display: flex;
+    justify-content: flex-end;
+    /* margin: 8px 3px; */
+}
+.messenger1 p{
+    margin: 0;
+}
+.messenger2,.messenger1{
+    border-radius: 5px;
+    display: flex;
+    
+    margin: 8px 3px;
+}
+.messenger2 p{
+    margin: 0;
+}
+.msgbox{
+    background-color: rgb(158, 137, 137);
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin: 0 8px;
+}
+.left{
+   background-color: red;
+   margin-left: 200px;
+
+}
+
